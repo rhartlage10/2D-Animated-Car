@@ -13,6 +13,7 @@
 		5581D0BD255C499600ECBB7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5581D0BB255C499600ECBB7A /* Main.storyboard */; };
 		5581D0BF255C499B00ECBB7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5581D0BE255C499B00ECBB7A /* Assets.xcassets */; };
 		5581D0C2255C499B00ECBB7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5581D0C0255C499B00ECBB7A /* LaunchScreen.storyboard */; };
+		5581D0D0255F79D600ECBB7A /* TireAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5581D0CF255F79D600ECBB7A /* TireAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5581D0BE255C499B00ECBB7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5581D0C1255C499B00ECBB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5581D0C3255C499B00ECBB7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5581D0CF255F79D600ECBB7A /* TireAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TireAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		5581D0B4255C499600ECBB7A /* Project02-RonniHartlage */ = {
 			isa = PBXGroup;
 			children = (
-				5581D0B5255C499600ECBB7A /* AppDelegate.swift */,
-				5581D0B7255C499600ECBB7A /* SceneDelegate.swift */,
-				5581D0B9255C499600ECBB7A /* ViewController.swift */,
-				5581D0BB255C499600ECBB7A /* Main.storyboard */,
+				5581D0C9255C49E000ECBB7A /* Controller */,
 				5581D0BE255C499B00ECBB7A /* Assets.xcassets */,
-				5581D0C0255C499B00ECBB7A /* LaunchScreen.storyboard */,
+				5581D0CA255C4A1000ECBB7A /* View */,
 				5581D0C3255C499B00ECBB7A /* Info.plist */,
 			);
 			path = "Project02-RonniHartlage";
+			sourceTree = "<group>";
+		};
+		5581D0C9255C49E000ECBB7A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5581D0B5255C499600ECBB7A /* AppDelegate.swift */,
+				5581D0B7255C499600ECBB7A /* SceneDelegate.swift */,
+				5581D0B9255C499600ECBB7A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5581D0CA255C4A1000ECBB7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5581D0BB255C499600ECBB7A /* Main.storyboard */,
+				5581D0C0255C499B00ECBB7A /* LaunchScreen.storyboard */,
+				5581D0CF255F79D600ECBB7A /* TireAnimationView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5581D0BA255C499600ECBB7A /* ViewController.swift in Sources */,
+				5581D0D0255F79D600ECBB7A /* TireAnimationView.swift in Sources */,
 				5581D0B6255C499600ECBB7A /* AppDelegate.swift in Sources */,
 				5581D0B8255C499600ECBB7A /* SceneDelegate.swift in Sources */,
 			);
